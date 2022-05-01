@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 
-    <title>Sequeência Crescente</title>
+    <title>Sequência Crescente</title>
 </head>
 
 <body>
@@ -16,22 +16,16 @@
         <div class="painel">
             <h2>Instruções</h2>
             <div class="conteudo-painel">
-                <p>Esta aplicação tem como finalidade ...!</p>       
-                <p>Exemplo:</p>
-
-                <ul>
-                    <li>Array sorteado = <b>[2,5,8,2,8,5,3,9,6,3,4,6,3,1,2,1,2,3,7,1]</b></li>
-                    <li>Os números que não se repetem são o <b>4 e 7.</b></li>
-                </ul>
+                <p>Esta aplicação tem como finalidade listar os exemplos apresentados, sendo 'true' ou 'false', de acordo com a lógica proposta!</p>       
             </div>
         </div>
 
         <div class="painel">
-            <h2>Sortear Números Aleatórios</h2>
+            <h2>Sequência de Números</h2>
 
             <div class="conteudo-painel">
                 <form action="sequencia.php" method="POST">
-                    <button class="botao" type="submit">Sortear</button>
+                    <button class="botao" type="submit">Listar</button>
                 </form>
             </div>
         </div>
